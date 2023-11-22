@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-zoom: unset;
+}
+
+@font-face {
+    font-family: Caveat;
+
+    src: url(Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+.banner {
+    width: 100%;
+    height: 180px;
+}
+
+.uno {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.img-container {
+    width: 165px;
+    height: 300px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container-foto {
+    width: 165px;
+    height: 185px;
+    margin: 10px 0;
+}
+
+.podcast-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+}
+
+.audio-podc {
+    width: 100%;
+}
+
+.principal {
+    width: 1080px;
+    margin: auto;
+}
+
+.podcast-title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+    font-family: Caveat;
+    background-color: rgba(201, 255, 255, 0.567);
+}
+
+.podcast {
+    margin: auto;
+    margin-bottom: 60px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cronica {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.cronica-img {
+    width: 280px;
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 18px;
+}
+
+.cronica-text {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+#show {
+    display: none;
+}
+
+#show-2 {
+    display: none;
+}
+
+.more {
+    color: rgb(1, 171, 171);
+    text-decoration: none;
+}
+
+.video {
+    width: 800px;
+    height: 430px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.podc-title {
+    text-align: center;
+}
+
+.descripcion {
+    font-size: 20px;
+    text-align: center;
+}
+
+.desc-2 {
+    font-family: Caveat;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-link {
+    margin: auto;
+}
+
+.contenedor-logo {
+    display: flex;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.video-desc {
+    margin-bottom: 60px;
+    text-align: left;
+    position: relative;
+    left: -20px;
+    top: -20px;
+}
+ 
+@media (400px <= width <= 1080px) {
+
+    .logo {
+        width: 80px;
+    }
+    
+    .podcast-title {
+        font-size: 30px;
+    }
+
+    .cronica-text {
+        font-size: 16px;
+    }
+
+    .banner {
+        height: 140px;
+    }
+
+    .uno {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .img-container {
+        width: 145px;
+        height: 263.636363px;
+    }
+
+    .img-container-foto {
+        width: 145px;
+        height: 165.575757px;
+    }
+
+    .desc-2 {
+        font-family: Caveat;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .podcast {
+        flex-wrap: wrap;
+        width: 77%;
+    }
+
+    .img-container {
+        margin-bottom: 10px;
+    }
+
+    .cronica-img {
+        width: 320px;
+        float: none;
+    }
+
+    .video {
+        width: 74%;
+        height: calc(74%*0.5375);
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .logo {
+        width: 60px;
+    }
+
+    .banner {
+        height: 125px;
+    }
+    
+    .uno {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .img-container {
+        width: 125px;
+        height: 227.272727px;
+    }
+
+    .img-container-foto {
+        width: 125px;
+        height: 140.151515px;
+    }
+
+    .podcast {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .img-container {
+        margin-bottom: 10px;
+    }
+
+    .cronica-img {
+        float: none;
+        width: 240px;
+    }
+
+    .video {
+        width: 74%;
+        height: calc(74%*0.5375);
+    }
+}
